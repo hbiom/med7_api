@@ -1,0 +1,7 @@
+<html>
+    <body>
+        {% for entity, entity_type in entities %}
+            <span style="color: {{colors[entity_type]}}">{{entity}}</span>
+        {% endfor %}
+    </body>
+</html>
